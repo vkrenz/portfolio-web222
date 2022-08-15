@@ -1,0 +1,12 @@
+{
+    "projects": 
+    [
+        {
+            title: 'Random Web',
+            description: 'This is a random web',
+            link: 'https://github.io/vkrenzel/randomweb',
+            languages: ['HTML', 'CSS', 'Javascript'],
+        }
+    ],
+    "defaulttile": "Projects"
+}

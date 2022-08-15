@@ -1,0 +1,18 @@
+{
+    "firstName": "Victor",
+    "lastName": "Krenzel",
+    "gender": "male",
+    "age": 22,
+    "address": {
+        "streetAddress": "41 Hearthstone Cr.",
+        "city": "Toronto",
+        "provine": "Ontario",
+        "postalCode": "M2R 1G2",
+        "country": "Canada"
+    },
+    "phoneNumbers": [
+        {"type": "home", "number": "4161112222"},
+        {"type": "cell", "number": "6472876382"},
+        {"type": "work", "number": "4167778888"}
+    ]
+}
