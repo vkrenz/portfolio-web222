@@ -1,3 +1,3 @@
-[vkrenz.github.io/portfolio-web222] 
+[Link to my portfolio:] (https://https://vkrenz.github.io/portfolio-web222)
 
-##### Hey! This is my final assessment project for WEB222 @ Seneca College
+##### Check out my final assessment project for WEB222 @ Seneca College!
