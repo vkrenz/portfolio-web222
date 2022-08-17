@@ -1,6 +1,7 @@
 import info from './info.js';
 
 const body = document.body;
+const nav = document.querySelector("#nav");
 const title = document.querySelector('#title');
 const info_2 = document.querySelector('#info-2');
 const date = document.querySelector('#date');
@@ -75,8 +76,8 @@ var typed = new Typed('#type', {
 });
 
 // Sticky Navbar
-window.addEventListener('scroll', e => {
-    console.log( window.pageYOffset );
+window.addEventListener('scroll', function() {
+    nav.classList.toggle("sticky", window.scrollY > 0);
 })
 
 // Debug

@@ -222,7 +222,7 @@ section.education {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 40px;
+    padding: 30px;
 }
 
 section.contact {
@@ -286,8 +286,7 @@ ul li a:hover {
 }
 
 nav {
-    background-color: var(--tertiary-color);
-    position: absolute;
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -296,6 +295,17 @@ nav {
     z-index: 9999;
     top: 0;
     left: 0;
+    padding: 20px 50px;
+    transition: 0.5s;
+}
+
+.sticky {
+    padding: 0px 50px;
+    background-color: var(--tertiary-color);
+}
+
+.sticky + .header {
+    padding-top: 60px;
 }
 
 a {
